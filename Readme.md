@@ -25,7 +25,6 @@ const detect = require('detect-gender');
 detect('vadim').then(function (gender) {
   // gender = 'male'
 });
-```
 
 // generators
 let gender = yield detect('vadim'); // 'male'
